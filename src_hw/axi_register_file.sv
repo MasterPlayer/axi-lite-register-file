@@ -5,8 +5,8 @@
 module axi_register_file #(
     parameter integer DATA_WIDTH = 32          ,
     parameter integer ADDR_WIDTH = 32          ,
-    parameter integer REG_COUNT  = 10          ,
-    parameter integer BASEADDR   = 32'h10000000
+    parameter integer REG_COUNT  = 1           ,
+    parameter integer BASEADDR   = 32'h00000000
 ) (
     input  logic                                      CLK          ,
     input  logic                                      RESETN       ,
